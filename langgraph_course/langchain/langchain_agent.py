@@ -1,8 +1,8 @@
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
-from tools.tavily_search import search_tool
-from tools.system_time import get_system_time
+from langgraph_course.tools.tavily_search import search_tool
+from langgraph_course.tools.system_time import get_system_time
 
 load_dotenv()
 
